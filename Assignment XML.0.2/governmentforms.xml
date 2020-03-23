@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <governmentform>
+        <name>Administrated by the UN</name>
+    </governmentform>
+    <governmentform>
+        <name>Co-administrated</name>
+    </governmentform>
+    <governmentform>
+        <name>Commonwealth of the US</name>
+    </governmentform>
+    <governmentform>
+        <name>Constitutional Monarchy</name>
+    </governmentform>
+    <governmentform>
+        <name>Constitutional Monarchy (Emirate)</name>
+    </governmentform>
+</world>

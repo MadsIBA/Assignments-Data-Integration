@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <countrylanguage>
+        <countrycode>ABW</countrycode>
+        <language>Dutch</language>
+        <isofficial>T</isofficial>
+        <percentage>5.3</percentage>
+    </countrylanguage>
+    <countrylanguage>
+        <countrycode>AFG</countrycode>
+        <language>Balochi</language>
+        <isofficial>F</isofficial>
+        <percentage>0.9</percentage>
+    </countrylanguage>
+    <countrylanguage>
+        <countrycode>ABW</countrycode>
+        <language>English</language>
+        <isofficial>F</isofficial>
+        <percentage>9.5</percentage>
+    </countrylanguage>
+    <countrylanguage>
+        <countrycode>ABW</countrycode>
+        <language>Spanish</language>
+        <isofficial>F</isofficial>
+        <percentage>7.4</percentage>
+    </countrylanguage>
+    <countrylanguage>
+        <countrycode>DNK</countrycode>
+        <language>Danish</language>
+        <isofficial>T</isofficial>
+        <percentage>93.5</percentage>
+    </countrylanguage>
+    <countrylanguage>
+        <countrycode>DNK</countrycode>
+        <language>German</language>
+        <isofficial>F</isofficial>
+        <percentage>0.5</percentage>
+    </countrylanguage>
+</world>

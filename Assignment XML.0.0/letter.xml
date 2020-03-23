@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./letter1.xsl"?>
+<emails>
+    <email>
+        <to>Mum</to>
+        <from>Porky</from>
+        <subject>Greetings</subject>
+        <message>Hello Mums, could you PLEASE send some more money</message>
+    </email>
+</emails>

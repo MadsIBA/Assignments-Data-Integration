@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <country>
+        <code>DNK</code>
+        <name>Denmark</name>
+        <continent>Europe</continent>
+        <region>Nordic Countries</region>
+        <surfacearea>43094</surfacearea>
+        <indepyear>800</indepyear>
+        <population>5330000</population>
+        <lifeexpectancy>76.5</lifeexpectancy>
+        <gnp>174099</gnp>
+        <gnpold>169264</gnpold>
+        <localname>Danmark</localname>
+        <governmentform>Constitutional Monarchy</governmentform>
+        <headofstate>Margrethe II</headofstate>
+        <capital>3315</capital>
+        <code2>DK</code2>
+    </country>
+    <country>
+        <code>GBR</code>
+        <name>United Kingdom</name>
+        <continent>Europe</continent>
+        <region>British Islands</region>
+        <surfacearea>242900</surfacearea>
+        <indepyear>1066</indepyear>
+        <population>59623400</population>
+        <lifeexpectancy>77.7</lifeexpectancy>
+        <gnp>1378330</gnp>
+        <gnpold>1296830</gnpold>
+        <localname>United Kingdom</localname>
+        <governmentform>Constitutional Monarchy</governmentform>
+        <headofstate>Elisabeth II</headofstate>
+        <capital>456</capital>
+        <code2>GB</code2>
+    </country>
+    <country>
+        <code>JPN</code>
+        <name>Japan</name>
+        <continent>Asia</continent>
+        <region>Eastern Asia</region>
+        <surfacearea>377829</surfacearea>
+        <indepyear>-660</indepyear>
+        <population>126714000</population>
+        <lifeexpectancy>80.7</lifeexpectancy>
+        <gnp>3787042</gnp>
+        <gnpold>4192638</gnpold>
+        <localname>Nihon/Nippon</localname>
+        <governmentform>Constitutional Monarchy</governmentform>
+        <headofstate>Akihito</headofstate>
+        <capital>1532</capital>
+        <code2>JP</code2>
+    </country>
+</world>

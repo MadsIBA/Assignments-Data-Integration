@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <city>
+        <oldid>3315</oldid>
+        <name>København</name>
+        <countrycode>DNK</countrycode>
+        <district>København</district>
+        <population>495699</population>
+    </city>
+    <city>
+        <oldid>3316</oldid>
+        <name>Århus</name>
+        <countrycode>DNK</countrycode>
+        <district>Århus</district>
+        <population>284846</population>
+    </city>
+    <city>
+        <oldid>3318</oldid>
+        <name>Aalborg</name>
+        <countrycode>DNK</countrycode>
+        <district>Nordjylland</district>
+        <population>161161</population>
+    </city>
+    <city>
+        <oldid>3317</oldid>
+        <name>Odense</name>
+        <countrycode>DNK</countrycode>
+        <district>Fyn</district>
+        <population>183912</population>
+    </city>
+</world>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectures>
+    <lesson subject="Dataintegration">
+        <date>23</date>
+        <month>March</month>
+        <year>2020</year>
+        <teacher>Niels</teacher>
+        <Topic>XML</Topic>
+    </lesson>
+    <lesson subject="Security">
+        <date>24</date>
+        <month>March</month>
+        <year>2020</year>
+        <teacher>Niels</teacher>
+        <Topic>Unknown</Topic>
+    </lesson>
+    <lesson subject="Day off">
+        <date>25</date>
+        <month>March</month>
+        <year>2020</year>
+        <subject>None</subject>
+        <teacher>None</teacher>
+        <Topic>None</Topic>
+    </lesson>
+    <lesson subject="Dataintegration">
+        <date>26</date>
+        <month>March</month>
+        <year>2020</year>
+        <subject>Dataintegration</subject>
+        <teacher>Niels</teacher>
+        <Topic>Unknown</Topic>
+    </lesson>
+    <lesson subject="Security">
+        <date>27</date>
+        <month>March</month>
+        <year>2020</year>
+        <subject>Security</subject>
+        <teacher>Niels</teacher>
+        <Topic>Unknown</Topic>
+    </lesson>
+</lectures>
