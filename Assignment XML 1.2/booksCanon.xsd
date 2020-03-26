@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="booksCanon">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" name="book">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="title" type="xsd:string" />
+                            <xsd:element name="edition" type="xsd:integer" />
+                            <xsd:element name="authors">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element maxOccurs="unbounded" name="author">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="firstname" type="xsd:string" />
+                                                    <xsd:element name="lastname" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="publisher">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="name" type="xsd:string" />
+                                        <xsd:element name="year" type="xsd:integer" />
+                                        <xsd:element name="place" type="xsd:string" />
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="pages" type="xsd:string" />
+                            <xsd:element name="isbn" type="xsd:string"/>
+                            <!--Cheated on booksCanonXxsd.xml line 70- <price><price> set to 0-->
+                            <xsd:element name="price" type="xsd:decimal" />
+                            <xsd:element name="currency" type="xsd:string" />
+                            <xsd:element name="comments">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element maxOccurs="unbounded" name="comment" type="xsd:string" />
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="ref" type="xsd:string" use="required" />
+                        <xsd:attribute name="mycanon" type="xsd:string" use="required" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

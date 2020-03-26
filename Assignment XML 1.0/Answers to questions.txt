@@ -1,0 +1,87 @@
+1. Must input elements be inside forms?
+
+ANSWER: 
+YES -   Line 183: <!ENTITY % inline.forms "input | select | textarea | label | button">
+
+
+2. Find and name the EMPTY elements.
+
+ANSWER: 
+Line 273: base
+Line 280: meta
+Line 304: link
+Line 454: hr
+Line 533: br
+Line 627: param
+Line 647: img
+Line 678: area
+Line 724: input
+Line 861: col
+        
+
+3. May a table be empty? May a tr?
+
+ANSWER:
+NO -    Line 855: <!ELEMENT table 
+                        (caption?, (col*|colgroup*), thead?, tfoot?, (tbody+|tr+))>
+
+4. What are the possible attributes of a h2?
+
+SHORT ANSWER:
+id
+class
+style
+title
+lang
+xml:lang
+dir
+onclick
+ondblclick
+onmousedown
+onmouseup
+onmouseover
+onmousemove
+onmouseout
+onkeypress
+onkeydown
+onkeyup
+
+LONG ANSWER:
+Line 378 - 381:
+<!ELEMENT h2 %Inline;>
+<!ATTLIST h2
+   %attrs;                                          h2      //Attributes are %attrs
+   >
+
+Line 167: 
+<!ENTITY % attrs "%coreattrs; %i18n; %events;">     %attrs  //Attributes are %coreattrs; %i18n; %events
+
+Line 112 - 117
+<!ENTITY % coreattrs
+ "id          ID             #IMPLIED
+  class       CDATA          #IMPLIED
+  style       %StyleSheet;   #IMPLIED
+  title       %Text;         #IMPLIED"
+  >
+
+
+Line 124 - 128
+<!ENTITY % i18n
+ "lang        %LanguageCode; #IMPLIED
+  xml:lang    %LanguageCode; #IMPLIED
+  dir         (ltr|rtl)      #IMPLIED"
+  >
+
+Line 141-152
+<!ENTITY % events
+ "onclick     %Script;       #IMPLIED
+  ondblclick  %Script;       #IMPLIED
+  onmousedown %Script;       #IMPLIED
+  onmouseup   %Script;       #IMPLIED
+  onmouseover %Script;       #IMPLIED
+  onmousemove %Script;       #IMPLIED
+  onmouseout  %Script;       #IMPLIED
+  onkeypress  %Script;       #IMPLIED
+  onkeydown   %Script;       #IMPLIED
+  onkeyup     %Script;       #IMPLIED"
+  >
